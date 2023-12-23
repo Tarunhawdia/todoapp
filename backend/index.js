@@ -1,7 +1,5 @@
 const express=require('express');
 const cors=require('cors');
-
-
 const connectDB =require('./mongodb');
 
 
@@ -11,8 +9,6 @@ app.use(express.json());
 
 
 connectDB();
-
-
 
 const port=process.env.Port || 3000;
 
