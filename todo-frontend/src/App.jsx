@@ -4,7 +4,7 @@ import React from 'react';
 import axios from "axios";
 import deleteIcon from "./delete-svgrepo-com.svg";
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "http://localhost:3000";
 
 function App() {
   const [todos, setTodos] = useState(null);

@@ -1,12 +1,14 @@
 const express=require('express');
 const cors=require('cors');
 const connectDB =require('./mongodb');
+const todoRoutes = require('./routes/todoRoutes').default;
 
 
 const app=express();
 app.use(cors());
 app.use(express.json());
 
+app.use('/api',todoRoutes);
 
 connectDB();
 
