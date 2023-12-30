@@ -61,7 +61,7 @@ function App() {
           placeholder="ADD a New Todo"
         />
         <div className="add-button" onClick={handleAddTodo}>
-          +
+          +Add
         </div>
       </div>
       <div className="todos-list">
